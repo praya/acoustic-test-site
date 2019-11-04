@@ -2,6 +2,7 @@
   "name": "tra-robotics-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://my12.digitalexperience.ibm.com/859f2008-a40a-4b92-afd0-24bb44d10124",
   "dependencies": {
     "@material-ui/core": "^4.5.2",
     "@material-ui/icons": "^4.5.1",
