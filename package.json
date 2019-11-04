@@ -3,27 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
     "@types/jest": "24.0.21",
     "@types/node": "12.12.5",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
+    "concurrently": "^5.0.0",
+    "ibm-wch-sdk-api": "^5.0.361",
+    "lite-server": "^2.5.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "typeface-roboto": "^0.0.75",
     "typescript": "3.6.4"
   },
   "scripts": {
-    "serve": "json-server -w -p=4001 assembly-process-data.json",
     "storybook": "start-storybook -p 4002 -s public",
     "build-storybook": "build-storybook -s public",
-    "start": "concurrently \"yarn serve\" \"yarn start-react\" \"yarn storybook\"",
+    "start": "concurrently \"yarn start-react\" \"yarn storybook\"",
     "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -41,10 +44,13 @@
     "@storybook/addon-actions": "^5.2.4",
     "@storybook/addon-storyshots": "^5.2.4",
     "@storybook/react": "^5.2.4",
+    "@types/react-router-dom": "^5.1.2",
     "@types/storybook__addon-storyshots": "^5.1.1",
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.19",
+    "@typescript-eslint/parser": "^2.6.0",
     "babel-loader": "^8.0.6",
+    "eslint-plugin-import": "^2.18.2",
     "moment": "^2.24.0",
     "require-context.macro": "^1.2.2",
     "rxjs": "^6.5.3",
