@@ -26,7 +26,6 @@ export const createResource = <TQuery extends any[], TOk extends Object>(getter:
         if (!response) {
             return <>{loading instanceof Function ? loading() : loading}</>;
         } else if (isFailed(response)) {
-            console.info(response)
             return <>{fail(response)}</>;
         } else {
             return <>{ok(response)}</>;
