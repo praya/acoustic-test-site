@@ -1,6 +1,6 @@
 # Acoustic Test Site
 
-[https://github.com/praya/acoustic-test-site](https://github.com/praya/acoustic-test-site)
+[https://my12.digitalexperience.ibm.com/859f2008-a40a-4b92-afd0-24bb44d10124/](https://my12.digitalexperience.ibm.com/859f2008-a40a-4b92-afd0-24bb44d10124/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
