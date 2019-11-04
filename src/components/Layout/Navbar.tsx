@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => (
         </Grid>
 
         <Grid item>
-            <Button size="small" href="https://github.com/praya" target="__blank">
+            <Button size="small" href="https://github.com/praya/acoustic-test-site" target="__blank">
                 GitHub
             </Button>
         </Grid>
