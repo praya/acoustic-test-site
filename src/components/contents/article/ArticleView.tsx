@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 import { ArticleContentItem } from "../../../api/Article";
 
@@ -11,14 +12,18 @@ export interface ArticleViewProps {
 
 
 export const ArticleView: React.FC<ArticleViewProps> =
-    ({ article: { elements: { heading, author, body, mainImage }, created } }) => {
-        const createdAt = created ? created.replace(/T.+/, '') : null;
-
+    ({ article: { elements: { heading, author, date, body, mainImage }, created } }) => {
         return (
             <article>
                 <h1>{heading.value || 'Untitled'}</h1>
 
-                {author.value && <p><i>{author.value}, {createdAt}</i></p>}
+                <p>
+                    <i>
+                        {author.value && author.value}
+                        {author.value && date.value && ', '}
+                        {date.value && moment(date.value).fromNow()}
+                    </i>
+                </p>
 
                 <p><ArticleImage image={mainImage} /></p>
 
