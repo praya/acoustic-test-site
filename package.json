@@ -47,14 +47,12 @@
     "@types/react-router-dom": "^5.1.2",
     "@types/storybook__addon-storyshots": "^5.1.1",
     "@types/storybook__react": "^4.0.2",
-    "@types/styled-components": "^4.1.19",
     "@typescript-eslint/parser": "^2.6.0",
     "babel-loader": "^8.0.6",
     "eslint-plugin-import": "^2.18.2",
     "moment": "^2.24.0",
     "require-context.macro": "^1.2.2",
     "rxjs": "^6.5.3",
-    "start-server-and-test": "^1.10.6",
-    "styled-components": "^4.4.0"
+    "start-server-and-test": "^1.10.6"
   }
 }
